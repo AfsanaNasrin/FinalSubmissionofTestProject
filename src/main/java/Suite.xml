@@ -1,0 +1,9 @@
+<suite name="FinalSubmission">
+
+	<test name="LoginModule">
+		<classes>
+			<class name="com.bitmLeads.FinalSubmission.Test.LoginTest" />					
+		</classes>
+	</test>
+
+</suite>

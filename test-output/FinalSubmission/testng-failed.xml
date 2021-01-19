@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FinalSubmission]">
+  <test thread-count="5" name="LoginModule(failed)">
+    <classes>
+      <class name="com.bitmLeads.FinalSubmission.Test.LoginTest">
+        <methods>
+          <include name="homepagetitleverify"/>
+        </methods>
+      </class> <!-- com.bitmLeads.FinalSubmission.Test.LoginTest -->
+    </classes>
+  </test> <!-- LoginModule(failed) -->
+</suite> <!-- Failed suite [FinalSubmission] -->

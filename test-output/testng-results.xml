@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-19T13:08:40 BDT" name="FinalSubmission" finished-at="2021-01-19T13:08:56 BDT" duration-ms="16819">
+    <groups>
+    </groups>
+    <test started-at="2021-01-19T13:08:40 BDT" name="LoginModule" finished-at="2021-01-19T13:08:56 BDT" duration-ms="16819">
+      <class name="com.bitmLeads.FinalSubmission.Test.LoginTest">
+        <test-method signature="homepagetitleverify()[pri:0, instance:com.bitmLeads.FinalSubmission.Test.LoginTest@757acd7b]" started-at="2021-01-19T13:08:40 BDT" name="homepagetitleverify" finished-at="2021-01-19T13:08:50 BDT" duration-ms="10406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepagetitleverify -->
+        <test-method signature="logintest(java.util.List)[pri:0, instance:com.bitmLeads.FinalSubmission.Test.LoginTest@757acd7b]" started-at="2021-01-19T13:08:53 BDT" name="logintest" data-provider="loginData" finished-at="2021-01-19T13:08:56 BDT" depends-on-methods="com.bitmLeads.FinalSubmission.Test.LoginTest.homepagetitleverify" duration-ms="3827" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[LoginDTO [username=try, password=try23], LoginDTO [username=Admin, password=admin123]]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+      </class> <!-- com.bitmLeads.FinalSubmission.Test.LoginTest -->
+    </test> <!-- LoginModule -->
+  </suite> <!-- FinalSubmission -->
+</testng-results>
